@@ -93,13 +93,13 @@ img {
 .footerbutton {
     display: inline-flex;
     background-color: #FF7043;
+    margin: auto 0;
 }
-
 
 
 button {
     font-weight: 900;
-    background-color: FDF4ED;
+    /* background-color: #FDF4ED; */
     border: none;
 }
 
@@ -107,14 +107,20 @@ button:hover {
     color:#FF7043 ;
 }
 
-.text {
+.buttons {
     text-align: right;
-    font-weight: 800;
+}
+ 
+.imagecont {
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+    border: none;
 }
 
 .letstalk {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     background-color: transparent;
     border: none;
     animation: roundround 4s infinite linear;

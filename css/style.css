@@ -163,8 +163,8 @@ button:hover {
  
 .imagecont {
     margin: 0 auto;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border: none;
     position: relative;
 }
@@ -174,12 +174,12 @@ button:hover {
     width: 200px;
     background-color: transparent;
     border: none;
-    animation: roundround 5s infinite linear;
+    animation: roundround 7s infinite linear;
 }
 
 .envelope {
     position: absolute;
-    top: 50%; 
+    top: 55%; 
     left: 50%;
 
 }

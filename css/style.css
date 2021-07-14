@@ -90,11 +90,10 @@ h1 {
     text-align: left;
 }
 
-.svgr:hover {
-    fill: #FF7043 ;
-}
 
 .backtotop {
+    height: 30px;
+    width: 30px;
     text-align: center;
     float: right;
     font-size: smaller;
@@ -102,8 +101,12 @@ h1 {
     margin-right: 100px;
     margin-bottom: 150px;
     position: relative;
+    background-image: url(/images/top.svg);
 }
 
+.backtotop:hover {
+    background-image: url(/images/tophover.svg);
+}
 
 .row {
     display: flex;
@@ -146,7 +149,28 @@ img {
     display: inline-flex;
     background-color: #FF7043;
     margin: auto 0;
+}
+
+.linkedin {
+    height: 20px;
+    width: 20px;
     padding: 5px;
+    background-image: url(/images/linkedin.svg);
+}
+
+.linkedin:hover{
+    background-image: url(/images/linkedinhover.svg);
+}
+
+.dribbble{
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    background-image: url(/images/dribbble.svg);
+}
+
+.dribbble:hover {
+    background-image: url(/images/dribbblehover.svg);
 }
 
 button {
@@ -172,9 +196,17 @@ button:hover {
 }
 
 .envelope {
+    height: 30px;
+    width: 40px;
     position: absolute;
     top: 55%; 
     left: 50%;
+    background-image: url(/images/envelope.svg);
+}
+
+.envelope:hover {
+    background-image: url(/images/envelopehover.svg);
+    
 }
 
 .letstalk {

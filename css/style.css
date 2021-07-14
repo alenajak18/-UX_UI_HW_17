@@ -24,6 +24,11 @@ p {
     font-size: large;
 }
 
+a {
+    background-color: transparent;
+}
+
+
 h1 {
     letter-spacing: 1px;
     font-size: 25px;
@@ -95,12 +100,10 @@ h1 {
     margin-right: 100px;
     margin-bottom: 150px;
     position: relative;
-
 }
 
 .backtotop:hover {
-    color: #FF7043 ;
-     
+    fill: #FF7043 ;
 }
 
 .row {
@@ -147,6 +150,10 @@ img {
     padding: 5px;
 }
 
+.footerbutton:hover{
+    fill: #FDF1E8;
+}
+
 button {
     font-weight: 900;
     /* background-color: #FDF4ED; */
@@ -169,6 +176,12 @@ button:hover {
     position: relative;
 }
 
+.envelope {
+    position: absolute;
+    top: 55%; 
+    left: 50%;
+}
+
 .letstalk {
     height: 200px;
     width: 200px;
@@ -177,12 +190,6 @@ button:hover {
     animation: roundround 7s infinite linear;
 }
 
-.envelope {
-    position: absolute;
-    top: 55%; 
-    left: 50%;
-
-}
 
 @keyframes roundround {
 

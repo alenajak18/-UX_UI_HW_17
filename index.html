@@ -56,23 +56,35 @@
     </div>
 
 
-    <div class="backtotop"> 
+    <button class="backtotop"> 
 
-        <div><img src="images/top.svg" alt="" height="25px"></div> 
+        <img class="svgr" src="images/top.svg" alt="" height="25px"></div> 
 
-    </div>
+    </button>
 
 
     <div class="imagecont"> 
 
 
-        <a href="mailto:example@yourdomain.com"><img class="envelope" src="images/envelope.png" alt="" height="30px"></a>
-
 
         <img class="letstalk" src="images/letstalk.png" alt="">
 
+
+        <a href="mailto:alenajak18@gmail.com"><img class="envelope" src="images/envelope.svg" alt="" height="30px"></a>
+
+
+
     </div>
 
+
+    <script src=
+"https://code.jquery.com/jquery-3.3.1.min.js">
+  </script>
+<script>
+$(".backtotop").on("click", function() {
+ $(window).scrollTop(0);
+})
+</script>
 
 </body>
 

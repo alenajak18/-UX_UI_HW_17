@@ -24,6 +24,7 @@ p {
     font-size: large;
 }
 
+
 a {
     background-color: transparent;
 }
@@ -66,7 +67,6 @@ h1 {
     font-weight: 800;
     font-size: large;
     text-align: left;
- 
 }
 
 .resume {
@@ -76,7 +76,6 @@ h1 {
     padding-right: 150px;
     padding-bottom: 50px;
     justify-content: right;
- 
 }
 
 
@@ -89,7 +88,10 @@ h1 {
     font-weight: 800;
     font-size: large;
     text-align: left;
- 
+}
+
+.svgr:hover {
+    fill: #FF7043 ;
 }
 
 .backtotop {
@@ -102,9 +104,6 @@ h1 {
     position: relative;
 }
 
-.backtotop:hover {
-    fill: #FF7043 ;
-}
 
 .row {
     display: flex;
@@ -148,10 +147,6 @@ img {
     background-color: #FF7043;
     margin: auto 0;
     padding: 5px;
-}
-
-.footerbutton:hover{
-    fill: #FDF1E8;
 }
 
 button {
